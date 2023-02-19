@@ -1,6 +1,7 @@
 {% extends 'base.html' %}
 {% block body%}
-{% csrf_token %}
+
+
 
 <div class="carousel-item active container-fluid my-4 " >
   <img src="/static/images/contacts.png" class="d-block w-100" alt="...">
@@ -11,7 +12,9 @@
   </div>
 
 
-  <form >
+  <form action="/contact" method='POST'>
+
+    {% csrf_token %}
 
         <div class="form-group">
           <label for="name">Name</label>
