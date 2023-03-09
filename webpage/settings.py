@@ -10,9 +10,8 @@ For the full list of settings and their values, see
 https://docs.djangoproject.com/en/4.1/ref/settings/
 """
 import os
-from django.contrib.messages import constants as messages
-
 from pathlib import Path
+from django.contrib.messages import constants as messages
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -136,4 +135,6 @@ STATICFILE_DIRS = [
 os.path.join(BASE_DIR, "static"),
     '/var/www/static/', 
     ]
+     
+
 #Location of static files
