@@ -31,3 +31,6 @@ def contact(request):
 
    return render(request, 'contact.html')
     
+
+def heading(request):
+   return render(request, 'about.html')
