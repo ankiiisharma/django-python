@@ -14,8 +14,8 @@ This repository contains a simple Django web application where CRUD (Create, Rea
 1. **Clone the repository:**
 
     ```bash
-    git clone https://github.com/your-username/django-crud-practice.git
-    cd django-crud-practice
+    git clone https://github.com/ankiiisharma/django-python.git
+    cd django-python
     ```
 
 2. **Create a virtual environment:**
@@ -41,7 +41,7 @@ This repository contains a simple Django web application where CRUD (Create, Rea
 4. **Install dependencies:**
 
     ```bash
-    pip install -r requirements.txt
+    -
     ```
 
 5. **Apply migrations:**
